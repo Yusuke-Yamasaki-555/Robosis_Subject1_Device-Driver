@@ -1,6 +1,10 @@
 #!/bin/bash
 
-# led test
+# author : YusukeYamasaki
+# lisence : GPL
+# description : bash for LED control
+# version : 0.0.1
+
 echo Quiz Start!!!
 echo y > /dev/myled0
 sleep 1
