@@ -5,20 +5,24 @@
 # description : bash for LED control
 # version : 0.0.1
 
+echo Start
+
 echo Quiz Start!!!
 echo y > /dev/myled0
 sleep 1
 echo z > /dev/myled0
 sleep 1
-echo Q1:1 + 3 = ?
+echo Q1:1 + 4 = ?
 sleep 0.2
 echo 1 > /dev/myled0
+echo A > /dev/myled0
 sleep 0.1
 echo ⭕
 sleep 0.3
 echo 2 > /dev/myled0
+echo B > /dev/myled0
 sleep 1
-echo Q2:If x^2 + 5x = 14, x = ?
+echo Q2:If x^2 + 5x = 14 then, x = ?
 sleep 0.2
 echo a > /dev/myled0
 sleep 0.1
@@ -57,7 +61,40 @@ echo Answer:
 sleep 1.5
 echo        None
 sleep 0.5
+echo 1 > /dev/myled0
+echo A > /dev/myled0
+sleep 0.5
+echo 2 > /dev/myled0
+echo B > /dev/myled0
+echo a > /dev/myled0
+sleep 0.5
+echo 1 > /dev/myled0
+echo A > /dev/myled0
+echo b > /dev/myled0
+sleep 0.5
+echo 2 > /dev/myled0
+echo B > /dev/myled0
+echo a > /dev/myled0
+sleep 0.5
+echo 1 > /dev/myled0
+echo A > /dev/myled0
+echo b > /dev/myled0
+sleep 0.5
+echo 2 > /dev/myled0
+echo B > /dev/myled0
+echo a > /dev/myled0
+sleep 0.5
+echo 1 > /dev/myled0
+echo A > /dev/myled0
+echo b > /dev/myled0
+sleep 0.5
+echo 2 > /dev/myled0
+echo B > /dev/myled0
+echo a > /dev/myled0
+sleep 0.5
 echo y > /dev/myled0
-sleep 1
+sleep 1.0
 echo z > /dev/myled0
-sleep 1
+sleep 1.0
+
+echo Finish
