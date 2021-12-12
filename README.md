@@ -21,7 +21,12 @@
 ![figure]()
 - なお、一番右の緑色のLEDが二進数の一桁目、黄色が二桁目、赤色が三桁目となっています。
 - 各LEDとGPIOピンの対応は、以下のようになっています。
-![figure]()
+| LED-color | GPIO-number |
+| :------|:------|
+| green | 25 |
+| yellow | 24 |
+| red | 23 |
+---
 - Raspberry Pi 3B+ のピン配置は、[こちら](https://www.raspberrypi.com/documentation/computers/os.html#gpio-and-the-40-pin-header)を参照してください。
 
 ## 実行方法
