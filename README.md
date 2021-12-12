@@ -18,7 +18,8 @@
 
 ## 配線
 - 以下の写真のように配線を組んでください。
-![figure]()
+![配線](https://user-images.githubusercontent.com/91410662/145711824-d8f3b4e5-b558-4ea0-ba32-56ebfa7426cb.jpg)
+![配線](https://user-images.githubusercontent.com/91410662/145711824-d8f3b4e5-b558-4ea0-ba32-56ebfa7426cb.jpg)
 - なお、一番右の緑色のLEDが二進数の一桁目、黄色が二桁目、赤色が三桁目となっています。
 - 各LEDとGPIOピンの対応は、以下のようになっています。
 
