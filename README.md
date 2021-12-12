@@ -39,7 +39,7 @@ $ git clone https://github.com/Yusuke-Yamasaki-555/Robosis_Subject1_Device-Drive
 $ cd Robosis_Subject_Device-Driver/
 $ ./set_make.bash # セットアップ用のスクリプト
 ```
-- もし、"myled_bash","set_make.bash","remove_make.bash"の各ファイルに実行権限がない場合は、以下のコマンドを実行し、実行権限を付与する必要があります。
+- もし、"myled_bash","set_make.bash","remove_make.bash"の各ファイルに実行権限が与えられていない場合、以下のコマンドを実行し、実行権限を付与する必要があります。
 ```sh
 $ chmod 775 myled_bash
 $ chmod 775 set_make.bash
@@ -48,7 +48,7 @@ $ chmod 775 remove_make.bash
 - 以上で、デバイスドライバが実行出来る状態となりました。
 
 ### 実行
-- 以下のコマンドで、シェルスクリプトであるmyled_bashが実行出来ます。実際に実行している様子の動画は[こちら]()(リンク先：Youtube)。
+- 以下のコマンドで、シェルスクリプトであるmyled_bashが実行出来ます。これを実行することで、ターミナルに表示される数式に対してLEDが二進数法を用いて答えます。実際に実行している様子の動画は[こちら]()(リンク先：Youtube)。
 ```sh
 $ ./myled_bash
 ```
