@@ -23,7 +23,7 @@
 # version : 0.0.1
 
 echo Start
-
+# 操作対象LED　y・z：全部、1・2：赤、a・b：黄、A・B：緑
 echo Quiz Start!!!
 echo y > /dev/myled0
 sleep 1
