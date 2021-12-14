@@ -21,7 +21,7 @@
 - ・写真
 ![配線](https://user-images.githubusercontent.com/91410662/145711824-d8f3b4e5-b558-4ea0-ba32-56ebfa7426cb.jpg)
 - ・回路図
-
+![B08E15D9-F770-4041-B619-5F8450DF38E6](https://user-images.githubusercontent.com/91410662/146053105-2e083db8-648e-44da-b861-bc75b89fbb44.jpeg)
 - なお、緑色のLEDが二進数の一桁目、黄色が二桁目、赤色が三桁目となっています。
 - 各LEDとGPIOピンの対応は、以下のようになっています。
 
