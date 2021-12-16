@@ -35,14 +35,14 @@
 
 ## 実行方法
 ### セットアップ
-- このリポジトリをクローン後、生成されたディレクトリに移動し、set_make.bashを実行してください。以下がそのコマンドです。(コマンド内の”$”は、入力する必要がありません)
+- このリポジトリをクローン後、生成されたディレクトリに移動し、**set_make.bash**を実行してください。以下がそのコマンドです。(コマンド内の”$”は、入力する必要がありません)
 ```sh
 $ git clone https://github.com/Yusuke-Yamasaki-555/Robosis_Subject1_Device-Driver.git # https通信の場合
  # ssh通信の場合：$ git clone git@github.com:Yusuke-Yamasaki-555/Robosis_Subject1_Device-Driver.git
 $ cd Robosis_Subject_Device-Driver/
 $ ./set_make.bash # セットアップ用のスクリプト
 ```
-- もし、"myled_bash","set_make.bash","remove_make.bash"の各ファイルに実行権限が与えられていない場合、以下のコマンドを実行し、実行権限を付与する必要があります。
+- もし、**myled_bash**,**set_make.bash**,**remove_make.bash**の各ファイルに実行権限が与えられていない場合、以下のコマンドを実行し、実行権限を付与する必要があります。
 ```sh
 $ chmod 775 myled_bash
 $ chmod 775 set_make.bash
@@ -51,7 +51,7 @@ $ chmod 775 remove_make.bash
 - 以上で、デバイスドライバが実行出来る状態となりました。
 
 ### 実行
-- 以下のコマンドで、シェルスクリプトであるmyled_bashが実行出来ます。これを実行することで、ターミナルに表示される数式に対してLEDが二進数法を用いて答えます。実際に実行している様子の動画は[こちら](https://youtu.be/_6jM9WL6Hgo****)(リンク先：Youtube)。
+- 以下のコマンドで、シェルスクリプトである**myled_bash**が実行出来ます。これを実行することで、ターミナルに表示される数式に対してLEDが二進数法を用いて答えます。実際に実行している様子の動画は[こちら](https://youtu.be/_6jM9WL6Hgo****)(リンク先：Youtube)。
 ```sh
 $ ./myled_bash
 ```
@@ -65,4 +65,4 @@ $ ./remove_make.bash # 片付け用のスクリプト
 
 ## ライセンスについて
 - このリポジトリにある全てのコードは、GNU General Public License v3.0 を採用しています。ライセンスの内容はCOPYINGファイルに記載されており、各プログラムの著作権については各プログラムのコード内に記載されています。(GNU General Public Lisence 公式サイト：https://www.gnu.org/licenses/gpl-3.0.en.html)
-- myled.cは、ryuichiueda様から公開されているGitHubの[リポジトリ](https://github.com/ryuichiueda/robosys2020/blob/master/md/device_driver.md)を参考にさせていただき、作成しました。
+- **myled.c**は、ryuichiueda様から公開されているGitHubの[リポジトリ](https://github.com/ryuichiueda/robosys2020/blob/master/md/device_driver.md)を参考にさせていただき、作成しました。
