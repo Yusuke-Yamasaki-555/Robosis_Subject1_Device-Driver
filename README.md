@@ -66,3 +66,4 @@ $ ./remove_make.bash # 片付け用のスクリプト
 ## ライセンスについて
 - このリポジトリにある全てのコードは、GNU General Public License v3.0 を採用しています。ライセンスの内容は**COPYING**ファイルに記載されており、各プログラムの著作権については各プログラムのコード内に記載されています。(GNU General Public Lisence 公式サイト：https://www.gnu.org/licenses/gpl-3.0.en.html)
 - **myled.c**は、ryuichiueda様から公開されているGitHubの[リポジトリ](https://github.com/ryuichiueda/robosys2020/blob/master/md/device_driver.md)を参考にさせていただき、作成しました。
+- **README.md**の構造に関して、[makotoyoshigoe様のREADME.md](https://github.com/makotoyoshigoe/RobotSystem2021_DeviceDriver)の構造を参考にさせていただきました。なお内容と文章に関しましては、私が一から考え記述しており、コピーは一切しておりません。
